@@ -1,6 +1,6 @@
 # upgradeX
 
-**BotPanel** is a small lab tool that demonstrates controlling a test agent from a Telegram bot using a button-driven UI. It is intended **only** for educational / lab use on machines you own or have explicit permission to test.
+**upgradeX** is a small lab tool that demonstrates controlling a test agent from a Telegram bot using a button-driven UI. It is intended **only** for educational / lab use on machines you own or have explicit permission to test.
 
 ---
 
@@ -30,14 +30,6 @@ Install core dependencies:
 pip install python-telegram-bot mss pillow
 ```
 
----
-
-## Files
-
-* `victim.py` — run on the target machine (listens on TCP, executes whitelisted actions, returns ACKs and screenshots).
-* `botpanel_bot.py` — run the Telegram bot (button-driven UI, set target, send actions, receive screenshot).
-
----
 
 ## Environment variables
 
