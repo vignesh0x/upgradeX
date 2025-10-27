@@ -1,14 +1,4 @@
-#!/usr/bin/env python3
-# botpanel_final_full.py
-# Full BotPanel single-file agent:
-# - password auth (admin@@@$$$23133AsDf)
-# - auto "online" on startup and on first auth
-# - commands-only (no buttons)
-# - features: status, info, screenshot, webcam, listfiles, getfile, msgbox, openurl,
-#   heartbeat, stopallhack (stop masala actions), stopall (stop bot), sendfile (upload to agent Desktop)
-# - masala: flashscreen, crazybrightness, clihack (simulated), lol (rickroll), screenflicker
-# - logging to botpanel.log, resilient polling loop
-# - Windows-specific actions use pywin32 / screen_brightness_control if installed (graceful fallback)
+
 
 import os
 import sys
